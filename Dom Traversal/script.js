@@ -28,5 +28,6 @@ close.forEach(function(ele) {
 // 		console.log(e.target)
 // 		// close[i].parentElement.style.display = 'none';
 		e.target.parentElement.style.display = 'none';
+		e.preventDefault()
 	})
 })
